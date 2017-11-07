@@ -11,7 +11,7 @@ public class RegexDemo {
 	
 	
 	public static void check1(String str){
-		//String regex="^[a-zA-Z_]+";
+		//String regex="[a-zA-Z_]+";
 		String regex="^[a-zA-Z_]{1,}[0-9]{0,}@(([a-zA-z0-9]*){1,}.){1,3}[a-zA-z]{1,}$";
 		if(str.matches(regex)){
 			System.out.println("È«×ÖÄ¸");
