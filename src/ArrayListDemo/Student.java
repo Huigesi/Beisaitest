@@ -1,43 +1,37 @@
 package ArrayListDemo;
 
 public class Student {
-	int num;
+	Integer num;
 	String name;
-	int age;
+	Integer age;
 
-	public Student(int num, String name, int age) {
-		super();
-		this.num = num;
-		this.name = name;
-		this.age = age;
-	}
 
-	public Student() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public int getNum() {
+public Integer getNum() {
 		return num;
 	}
-
-	public void setNum(int num) {
+	public void setNum(Integer num) {
 		this.num = num;
 	}
-
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
-
-	public void setAge(int age) {
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+public Student(Integer num, String name, Integer age) {
+		super();
+		this.num = num;
+		this.name = name;
 		this.age = age;
 	}
 @Override
@@ -49,6 +43,5 @@ public String toString() {
 		// TODO Auto-generated method stub
 
 	}
-
 
 }
